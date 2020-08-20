@@ -1,0 +1,491 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: helvetica;
+}
+header{
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, -0.25), rgba(0, 6, 0, 0.75)), url(tatte.jpg) center no-repeat;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: color;
+  background-position: center;
+  padding: 10px 1% 207px 15%;
+  border: 1px solid lightgrey;
+  background-image: cover;
+}
+
+}
+header nav ul{
+  list-style-type: none;
+}
+header nav ul li{
+  display: inline;
+  margin-right: 3%;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.hamburger{
+  display: none;
+}
+.userLogin{
+  display: none;
+}
+.one ul li:nth-child(4){
+  margin-left: 40%;
+}
+.one ul li:last-child{
+  border: 2px solid white;
+  padding: 1%;
+}
+header img{
+  margin-left: 30%;
+  padding-top: 30px;
+}
+header .inputs{
+  /* margin:0; */
+}
+.inputs{
+  height:50px;
+  width:82%;
+  border:5px;
+}
+
+
+
+.inputs input{
+  background-color: white;
+  height:100%;
+  width: 42%;
+  padding: 10px 5px;
+  border:none;
+  margin:none;
+  float:left;
+}
+.inputs label{
+  background-color: white;
+  padding: 10px 5px;
+  color:grey;
+  font-size: 1.4rem;
+  height:100%;
+  border:none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  float:left;
+  margin-left:3px;
+}
+.two{
+  margin-left:15%;
+}
+
+#near{
+  padding-right: 15px;
+  margin:0;
+  float:left;
+}
+
+button {
+  background: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 11%;
+  height:100%;
+
+
+}
+/* END OF HEADER */
+
+
+
+#hidden {
+  display:none;
+}
+.cities{
+  width: 100%;
+  padding-top: 40px;
+}
+.cities h2{
+  text-align: center;
+  color: #e40000;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+.three{
+  border-bottom: 1px solid grey;
+}
+.cities nav ul{
+  list-style-type: none;
+}
+.cities nav ul li{
+  display: inline;
+  margin-right: 3%;
+  margin-left:5%;
+}
+.cities nav ul li a{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.4rem;
+}
+.hotNew{
+  width:100%;
+}
+.hotNew h3{
+  text-align: center;
+  color: #e40000;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.newRest{
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  border: 1px solid white;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+.newRest h4 a{
+  color:blue;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.newRest span{
+  color:orange;
+  font-size: 1.3rem;
+}
+.newRest small{
+  color:black;
+  font-size: 1.2rem;
+}
+.newRest p{
+  color:black;
+  font-size: 1.3rem;
+}
+.kortormor{
+  width: 30%;
+  border: 1px solid lightgrey;
+  float:left;
+  margin-right: 3%;
+}
+.kortormor a img{
+  width: 100%;
+}
+.flatbread{
+  width: 30%;
+  border: 1px solid lightgrey;
+  float:left;
+  margin-bottom:10px;
+  margin-right: 5%;
+
+}
+.flatbread a img{
+  width:100%;
+}
+.citrus{
+  width: 30%;
+  border: 1px solid lightgrey;
+  float:left;
+}
+.citrus a img{
+  width: 100%;
+}
+.moreHot{
+  color: blue;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-left: 40%;
+}
+
+.browseBusi {
+  margin-top: 100px;
+clear: both;
+height: 500px;
+width: 100%;
+float: left;
+}
+.browseBusi h3{
+  color: #e40000;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.below img{
+  width: 95px;
+  height:95px;
+  margin-left: 15%;
+}
+.below p a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 15%;
+}
+.row{
+  width: 100%;
+  border: 1px solid white;
+  /* height: 200px; */
+  margin-left: 5%;
+  margin-right: 5%
+}
+.below{
+  width: 20%;
+  float: left;
+  /* height: 200px; */
+  border: 1px solid grey;
+  margin-right: 3%;
+  margin-bottom: 20px;
+  padding: auto;
+}
+
+ /* mobile */
+@media (min-width: 60px) and (max-width:600px){
+  header nav ul li{
+    display: none;
+  }
+  header nav ul li a{
+    display: none;
+  }
+.hamburger{
+    display: block;
+    color: white;
+    font-size: 3rem;
+    margin-left: -65px;
+    padding-top:
+}
+header img {
+  margin-left: 55px;
+}
+/*
+.userLogin{
+  display: block;
+  color: white;
+  font-size: 3rem;
+  border: 1px solid black;
+  width: 15%;
+  float: right;
+  margin-top: -10%;
+  font-weight: bold;
+} */
+.inputs label{
+  float:left;
+  padding-right: 6px;
+}
+.inputs input{
+  display: block;
+  padding: 10px;
+  margin-right: auto;
+}
+
+#find{
+  width:88%;
+}
+
+#near{
+  width:75.2%;
+  border-radius: none;
+  border-top:1px solid lightgrey;
+  margin-right:none;
+  float:left;
+}
+
+.three{
+  display: none;
+}
+button {
+  width: 12%;
+  background: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 11%;
+  float:left;
+
+}
+#hidden {
+  display: none;
+}
+.hotNew{
+  width:100%;
+  margin: 0;
+}
+.tres{
+  display:none;
+}
+.citrus{
+  width: 100%;
+}
+.citrus a img{
+  width: 100%;
+  height:250px;
+}
+.flatbread{
+  width: 100%;
+}
+.flatbread a img{
+  width: 100%;
+  height:250px;
+}
+.kortormor{
+  width: 100%;
+}
+.kortormor a img{
+  width: 100%;
+  height:250px;
+}
+.box .pic img{
+  height:200px;
+}
+.moreHot{
+  margin-left: auto;
+}
+
+.browseBusi{
+  display: none;
+}
+.moreHot{
+  margin-left: 12%
+}
+
+
+}
+
+/* tablet */
+@media (min-width:601px) and (max-width:800px){
+  header nav ul li a{
+    display: none;
+  }
+  .inputs input{
+    display: block;
+
+    border-radius: 7%;
+
+    margin-top: 2px;
+  }
+  .inputs label{
+    display: none;
+  }
+  button {
+    background: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 11%;
+  }
+  .hamburger{
+    display: block;
+    color: white;
+    font-size: 3rem;
+  }
+  .below{
+    width: 20%;
+    float: left;
+    /* height: 200px; */
+    border: 1px solid grey;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    padding: auto;
+  }
+  #hidden {
+  display: block;
+  margin-left:30%;
+  font-size: 4rem;
+  }
+  .cities .three{
+  display: none;
+  }
+
+}
+
+
+
+/* desktop monitor */
+
+@media (min-width: 799px) and (max-width:1115px){
+  header nav ul li a{
+    display: none;
+  }
+  .inputs input{
+    display: block;
+
+    border-radius: 7%;
+
+    margin-top: 2px;
+  }
+  .inputs label{
+    display: none;
+  }
+  button {
+    background: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 11%;
+  }
+.hamburger{
+    display: block;
+    color: white;
+    font-size: 3rem;
+  }
+
+#hidden {
+  display: block;
+  margin-left:45%;
+}
+.cities .three{
+  display: none;
+}
+.below{
+  width: 45%;
+  float: left;
+  /* height: 200px; */
+  border: 1px solid grey;
+  margin-right: 3%;
+  margin-bottom: 20px;
+  padding: auto;
+}
+
+.below img {
+    width: 95px;
+    height: 95px;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.below p a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-left: 41%;
+}
+
+
+
+#hidden{
+    display: block;
+    margin-left: 37%;
+    font-size: 4rem;
+}
+
+}
+
+
+/* full screen */
+@media only screen and (min-width:1116px){
+  .below{
+    width: 20%;
+    float: left;
+    /* height: 200px; */
+    border: 1px solid orange;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    padding: auto;
+  }
+}
